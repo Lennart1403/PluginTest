@@ -1,0 +1,16 @@
+name: PluginTest
+version: '${project.version}'
+main: application.minecraft.plugintest.PluginTest
+api-version: 1.18
+description: Plugin Test
+commands:
+  god:
+    description: Become invincible
+    usage: /<command>
+  mazegen:
+    description: Create maze
+    usage: /<command>
+  chargemob:
+    description: Spawn mob
+    usage: /<command>
+
